@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 items.add(editText.getText().toString());
+                editText.getText().clear();
 
                 itemsAdapter.notifyDataSetChanged();
             }
@@ -88,6 +89,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+     */
     private class MyListAdapter extends BaseAdapter {
 
         @Override
@@ -104,18 +107,10 @@ public class MainActivity extends AppCompatActivity {
         public long getItemId(int position) {
             return position;
         }
-
         public View getView(int position, View convertView, ViewGroup parent) {
-            View newView = convertView;
-            Todo todo = (Todo)getItem(position);
-            LayoutInflater inflater = getLayoutInflater();
-
-            if(newView == null){
-                newView = inflater.inflate(R.layout.activity_list_view, parent, false);
+            return null;
             }
 
 
-            return newView;
         }
-        }*/
-    }
+}
