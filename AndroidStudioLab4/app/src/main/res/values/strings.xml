@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidStudioLab4</string>
+    <string name="button_tag">ADD</string>
+    <string name="hint_tag">To do name</string>
+</resources>
