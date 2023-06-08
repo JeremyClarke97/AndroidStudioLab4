@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidStudioLab4</string>
+    <string name="button_tag">AJOUTER</string>
+    <string name="hint_tag">NOM DE DO</string>
+</resources>
